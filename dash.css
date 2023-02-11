@@ -1,0 +1,96 @@
+
+NewTask{
+	layout: horizontal;
+	background: $boost;
+	height: 5;
+	margin: 0;
+	padding: 1;
+}
+
+TaskList {
+}
+#newtaskcontainer {
+	margin: 0;
+}
+#url {
+	width: 50%;
+	dock:left;
+}
+#notes {
+	width: 30%;
+	dock:left;
+}
+#add {
+	width: 20%;
+	dock: right;
+}
+Item {
+	align-vertical: middle;
+	layout: grid;
+	grid-size: 12 1;
+	grid-rows: 8fr;
+	grid-columns: 1fr;
+	grid-gutter: 1;
+	background: $boost;
+	height: 5;
+	min-width: 50;
+	margin: 1;
+	padding: 1;
+}
+
+#ITitle {
+	column-span: 3;
+}
+#Iurl, #ICondition, #IPrice {
+	column-span: 1;
+}
+#ISell, #IShipping {
+	column-span: 2;
+}
+
+Task {
+	align-vertical: middle;
+	layout: grid;
+	grid-size: 16 1;
+	grid-rows: 8fr;
+	grid-columns: 1fr;
+	grid-gutter: 1;
+	background: $boost;
+	height: 5;
+	min-width: 50;
+	margin: 1;
+	padding: 1;
+}
+
+Static {
+	align-vertical: middle;
+}
+
+#_id {
+	align-vertical: middle;
+}
+#_url {
+	column-span: 3;
+}
+#_itemcount{
+}
+#_note {
+	column-span: 3;
+}
+#_status {
+	background: green;
+	color: black;
+}
+
+#lcheck{
+	column-span: 3;
+}
+
+#changeStatus {
+	
+}
+
+Button {
+	column-span: 2;
+	width: 10;
+}
